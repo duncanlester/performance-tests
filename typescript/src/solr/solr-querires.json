@@ -1,0 +1,14 @@
+{
+  "queries": [
+    {
+      "collection_name": "catalog",
+      "search_field_name": "id_txt",
+      "search_field_value": "search text"
+    },
+    {
+      "collection_name": "catalog",
+      "search_field_name": "id_txt",
+      "search_field_value": "search text"
+    }
+  ]
+}
