@@ -35,7 +35,6 @@ services:
     volumes:
       - ./grafana:/etc/grafana/provisioning/
 
-
   k6:
     build: .
     networks:
@@ -45,4 +44,4 @@ services:
     environment:
       - K6_OUT=timescaledb=postgresql://k6:k6@timescaledb:5432/k6
     volumes:
-      - ./samples:/scripts
+      - ./typescript/src/config:/config

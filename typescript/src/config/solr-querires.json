@@ -1,0 +1,9 @@
+{
+  "queries": [
+    {
+      "collection_name": "catalog",
+      "search_field_name": "*",
+      "search_field_value": "*"
+    }
+  ]
+}
